@@ -3,13 +3,13 @@ const dotenv = require('dotenv');
 dotenv.config({ path: '.env.deploy' });
 
 const {
-  DEPLOY_USER, DEPLOY_HOST, DEPLOY_PATH, DEPLOY_REF = 'origin/master', DEPLOY_REPO,
+  DEPLOY_USER, DEPLOY_HOST, DEPLOY_PATH, DEPLOY_REF, DEPLOY_REPO,
 } = process.env;
 
 module.exports = {
-  apps : [{
-    name   : "mesto-frontend",
-    script : "./build/index.html"
+  apps: [{
+    name: "mesto-frontend",
+    script: "./build/index.html"
   }],
 
   deploy: {
