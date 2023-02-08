@@ -20,7 +20,7 @@ module.exports = {
       repo: DEPLOY_REPO,
       path: DEPLOY_PATH,
       'pre-deploy': `scp ./*.env ${DEPLOY_USER}@${DEPLOY_HOST}:${DEPLOY_PATH}`,
-      'post-deploy': 'cd ~/mesto-backend/current/backend/ && sudo npm i && npm run build',
+      'post-deploy': 'cd ~/mesto-backend/source/backend/ && sudo npm i && npm run build',
     },
   },
 };
