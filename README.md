@@ -2,5 +2,5 @@
 
 ## Где найти:
 * IP адрес: 130.193.49.90
-* Frontend: https://new-mesto.nomoredomainsclub.ru/
-* Backend: https://api.new-mesto.nomoredomainsclub.ru/
+* Frontend: https://new-mesto.nomoredomains.work/
+* Backend: https://api.new-mesto.nomoredomains.work/
